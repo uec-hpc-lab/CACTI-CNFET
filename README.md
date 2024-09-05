@@ -23,8 +23,9 @@ python autocacti.py
 If you use our CACTI-CNFET in any published work, we would appreciate a citation for the following paper.
 
 S. Miwa, E. Sekikawa, T. Yang, R. Shioya, H. Yamaki, and H. Honda, CACTI-CNFET: an Analytical Tool for Timing, Power, and Area of SRAMs with Carbon Nanotube Field Effect Transistors, In Proceedings of the 30th Asia and South Pacific Design Automation Conference (ASP-DAC), 2025.
-License
-Our cell library has a BSD 3-Clause license.
+
+## License
+Our CACTI-CNFET has a BSD 3-Clause license.
 
 ## Contact
 If you have any questions or problems, please contact cnfet@hpc.is.uec.ac.jp.
