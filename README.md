@@ -13,7 +13,7 @@ The usage of CACTI-CNFET is almost the same as that of CACTI. If you use the 5nm
 
 To assess the timing, power, and area of subarrays, we added *test mode* into our CACTI-CNFET. If you would like to use the test mode, please use the option "-test 1." 
 
-To reproduce the results of our ASP-DAC'25 paper, please execute the following command, making the directory *cacti_result_raw*, which includes the timing, power, and area data estimated by our CACTI-CNFET. 
+To reproduce the results of our ASP-DAC'25 paper, please execute the following command, making the directory *cacti_result_raw*, which includes the CSV files of the timing, power, and area data of the 49 SRAMs used in our paper.
 
 ```
 python autocacti.py
