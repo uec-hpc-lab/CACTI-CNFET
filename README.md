@@ -9,7 +9,7 @@ The CACTI-CNFET project is to develop open source toolsets for estimating the ti
 Clone this repository and then execute *make*.
 
 ## Usage
-The usage of CACTI-CNFET is almost the same as that of CACTI. If you use the 5nm CNFET technology we newly defined, please use '0.005' as the technology node.
+The usage of CACTI-CNFET is almost the same as that of CACTI. If you use the 5nm CNFET technology we newly defined, please set '0.005' to the technology node.
 
 To assess the timing, power, and area of subarrays, we added *test mode* into our CACTI-CNFET. If you would like to use the test mode, please use the option "-test 1." 
 
