@@ -1871,9 +1871,9 @@ void init_tech_params(double technology, bool is_tag)
     	c_fringe[0] = 2.4641e-16;
     	c_junc[0] = 4.3209e-14;
     	I_on_n[0] =  46.5926e-6/width;
-    	I_on_p[0] = I_on_n[0] / 2;
+    	I_on_p[0] = I_on_n[0] / 1;
       nmos_effective_resistance_multiplier[0] = 1;
-      n_to_p_eff_curr_drv_ratio[0] = 2; 
+      n_to_p_eff_curr_drv_ratio[0] = 1; 
       gmp_to_gmn_multiplier[0] = 1.38; //Just using the 32nm SOI value.
       Rnchannelon[0] = nmos_effective_resistance_multiplier[0] * vdd[0] / I_on_n[0];//ohm-micron
       Rpchannelon[0] = n_to_p_eff_curr_drv_ratio[0] * Rnchannelon[0];//ohm-micron
